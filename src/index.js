@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => {
-  return <div>See you Space Cowboy!!!!</div>;
-};
+import App from "./component/App";
 
 ReactDOM.render(<App />, document.querySelector("#root"));
